@@ -1,0 +1,50 @@
+form {
+	border: 2px solid #1144c77a;
+	position: relative;
+	width: 96%;
+	min-height: 24vh;
+	margin: 33px 20px 20px 20px;
+	background: rgba(196, 196, 196, 0.1);
+	padding: 35px 40px;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input,
+form textarea {
+	width: 100%;
+	border: none;
+	background: transparent;
+	padding: 4px;
+	outline: none;
+	font-size: 2em;
+	font-family: inherit;
+	resize: none;
+	color: white;
+}
+
+::-webkit-input-placeholder {
+	font-size: 3rem;
+	color: rgba(255, 255, 255, 0.226);
+}
+form input {
+	margin-bottom: 20px;
+	font-size: 3.3em;
+}
+form textarea {
+	color: #ffffffbb;
+}
+form button {
+	position: absolute;
+	right: 4rem;
+	bottom: 3rem;
+	font-size: 2.4rem;
+	font-weight: bold;
+	padding: 1rem 3rem;
+	background: #1f58ea;
+	color: #fff;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+	outline: none;
+}
